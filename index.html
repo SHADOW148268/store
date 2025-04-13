@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Store</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-bag"></i> Shadow Store</a>
+        <nav id="nav">
+            <a href="#">الرئيسية</a>
+            <a href="#categories">الأقسام</a>
+            <a href="#products">المنتجات</a>
+            <a href="#features">المميزات</a>
+            <a href="#contact">اتصل بنا</a>
+        </nav>
+        <div class="cart-icon" id="cartIcon">
+            <i class="fas fa-shopping-cart"></i><span class="cart-count">0</span>
+        </div>
+        <button class="mobile-menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>اكتشف أفضل المنتجات التقنية</h2>
+            <p>منتجات مختارة بعناية لعشاق التقنية والابتكار بأفضل الأسعار</p>
+            <button class="hero-btn"><i class="fas fa-chevron-left"></i> تسوق الآن</button>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <h2 class="section-title">تسوق حسب الأقسام</h2>
+        <div class="category-list">
+            <div class="category-item">
+                <div class="category-icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="category-name">الهواتف الذكية</div>
+            </div>
+            <div class="category-item">
+                <div class="category-icon"><i class="fas fa-laptop"></i></div>
+                <div class="category-name">أجهزة الكمبيوتر</div>
+            </div>
+            <div class="category-item">
+                <div class="category-icon"><i class="fas fa-headphones"></i></div>
+                <div class="category-name">اكسسوارات</div>
+            </div>
+            <div class="category-item">
+                <div class="category-icon"><i class="fas fa-gamepad"></i></div>
+                <div class="category-name">ألعاب</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products-section" id="products">
+        <h2 class="section-title">أحدث المنتجات</h2>
+        <div class="products">
+            <div class="product">
+                <span class="product-badge">جديد</span>
+                <div class="product-img-container"><img src="image4.jpg" alt="هاتف ذكي"></div>
+                <div class="product-info">
+                    <h3>هاتف ذكي متطور</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="desc">هاتف متطور بأحدث المواصفات وأداء فائق للألعاب والاستخدام اليومي</p>
+                    <div class="price-actions">
+                        <span class="price">899$</span>
+                        <button class="product-btn">أضف للسلة <i class="fas fa-chevron-left"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-container"><img src="image1.jpg" alt="لابتوب"></div>
+                <div class="product-info">
+                    <h3>لابتوب للألعاب</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="desc">لابتوب مخصص للألعاب بمعالج قوي وكرت شاشة متطور</p>
+                    <div class="price-actions">
+                        <span class="price">2499$</span>
+                        <button class="product-btn">أضف للسلة <i class="fas fa-chevron-left"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <span class="product-badge">خصم 15%</span>
+                <div class="product-img-container"><img src="image2.jpg" alt="سماعات"></div>
+                <div class="product-info">
+                    <h3>سماعات لاسلكية</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="desc">سماعات لاسلكية بجودة صوت عالية وبطارية تدوم طويلاً</p>
+                    <div class="price-actions">
+                        <span class="price">399$</span>
+                        <button class="product-btn">أضف للسلة <i class="fas fa-chevron-left"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-container"><img src="image3.jpg" alt="ساعة ذكية"></div>
+                <div class="product-info">
+                    <h3>ساعة ذكية</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="desc">ساعة ذكية متطورة لمتابعة اللياقة البدنية والإشعارات</p>
+                    <div class="price-actions">
+                        <span class="price">200$</span>
+                        <button class="product-btn">أضف للسلة <i class="fas fa-chevron-left"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2 class="section-title">آراء العملاء</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">تجربة رائعة مع متجر Shadow Store، المنتجات أصلية وبجودة عالية والتوصيل
+                        سريع جداً. أنصح بالتعامل معهم.</p>
+                    <div class="testimonial-author">
+                        <img class="author-img" src="image5.jpg" alt="عميل">
+                        <span class="author-name">محمد علي</span>
+                        <span class="author-role">عميل</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">خدمة عملاء ممتازة وأسعار منافسة. سأكرر الشراء بالتأكيد.</p>
+                    <div class="testimonial-author">
+                        <img class="author-img" src="image5.jpg" alt="عميل">
+                        <span class="author-name">سارة خالد</span>
+                        <span class="author-role">عميلة</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <span class="testimonial-dot active" data-index="0"></span>
+                <span class="testimonial-dot" data-index="1"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <h2 class="section-title">لماذا تختارنا؟</h2>
+        <div class="features-list">
+            <div class="feature">
+                <i class="feature-icon fas fa-shipping-fast"></i>
+                <h3>توصيل سريع</h3>
+                <p>خدمة توصيل في نفس اليوم للمدن الرئيسية.</p>
+            </div>
+            <div class="feature">
+                <i class="feature-icon fas fa-lock"></i>
+                <h3>دفع آمن</h3>
+                <p>حماية كاملة لبياناتك أثناء الدفع.</p>
+            </div>
+            <div class="feature">
+                <i class="feature-icon fas fa-headset"></i>
+                <h3>دعم 24/7</h3>
+                <p>فريقنا جاهز للرد على استفساراتك في أي وقت.</p>
+            </div>
+            <div class="feature">
+                <i class="feature-icon fas fa-undo-alt"></i>
+                <h3>إرجاع سهل</h3>
+                <p>سياسة إرجاع مرنة خلال 30 يومًا.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="contact">
+        <div class="newsletter-content">
+            <h2>انضم إلى نشرتنا</h2>
+            <p>كن أول من يعلم بالعروض والخصومات الحصرية.</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="بريدك الإلكتروني" required>
+                <button type="submit" class="newsletter-btn">اشترك <i class="fas fa-chevron-left"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>عن المتجر</h3>
+                <p>Shadow Store هو متجر إلكتروني متخصص في أفضل المنتجات التقنية.</p>
+            </div>
+            <div class="footer-column">
+                <h3>روابط سريعة</h3>
+                <div class="footer-links">
+                    <a href="#">الرئيسية <i class="fas fa-chevron-left"></i></a>
+                    <a href="#categories">الأقسام <i class="fas fa-chevron-left"></i></a>
+                    <a href="#products">المنتجات <i class="fas fa-chevron-left"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>تابعنا</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2025 Shadow Store. جميع الحقوق محفوظة.</div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></div>
+
+    <!-- Scripts -->
+    <script>
+        // Hide loader when the page is fully loaded
+        window.addEventListener('load', () => {
+            document.querySelector('.loader').classList.add('hidden');
+        });
+
+        // Variables and element references
+        const header = document.getElementById('header');
+        const backToTop = document.getElementById('backToTop');
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+
+        // Change header style and back-to-top visibility on scroll
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+            backToTop.classList.toggle('visible', window.scrollY > 300);
+        });
+
+        // Toggle mobile menu
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            menuBtn.firstElementChild.classList.toggle('fa-bars');
+            menuBtn.firstElementChild.classList.toggle('fa-times');
+        });
+
+        // Scroll smoothly to top when back-to-top button is clicked
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Intersection Observer for reveal animations
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        // Observe the following elements for reveal effect
+        document.querySelectorAll('.category-item, .product, .feature').forEach(el => observer.observe(el));
+
+        // Testimonials slider functionality
+        const slides = document.querySelectorAll('.testimonial-slide'),
+            dots = document.querySelectorAll('.testimonial-dot');
+        let current = 0;
+
+        function showSlide(idx) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = idx;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+        }
+        dots.forEach(dot => dot.addEventListener('click', () => {
+            showSlide(parseInt(dot.dataset.index));
+        }));
+        setInterval(() => {
+            showSlide((current + 1) % slides.length);
+        }, 5000);
+    </script>
+</body>
+
+</html>
